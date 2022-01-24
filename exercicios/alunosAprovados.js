@@ -27,7 +27,7 @@ var turmaA = [
 ]
 
 function alunosAprovados (arr, media){
-    let aprovados=[]
+    let aprovados =[]
 
     for (let i = 0; i < arr.length; i++){
         const {nota, nome} = arr[i];
